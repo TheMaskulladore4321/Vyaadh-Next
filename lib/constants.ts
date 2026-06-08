@@ -1,0 +1,30 @@
+export const TASK_TYPES = [
+  "Plumbing",
+  "Electrical",
+  "Cleaning",
+  "Painting",
+  "Carpentry",
+  "Masonry",
+  "Gardening",
+  "Cooking",
+  "Driving",
+  "Delivery",
+  "Babysitting",
+  "Elder Care",
+  "Laundry",
+  "Pest Control",
+  "AC Repair",
+] as const;
+
+export const SUGGESTED_SKILLS = [
+  "Pipe fitting",
+  "Wiring",
+  "Deep cleaning",
+  "Wall painting",
+  "Furniture repair",
+  "Brick work",
+  "Lawn care",
+  "Home cooking",
+  "Heavy lifting",
+  "Appliance repair",
+] as const;
